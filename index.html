@@ -12,25 +12,28 @@
 <body>
     <main>
         <section class="hero">
-            <div class="hero__inner h-auto 2xl:h-[100vh] grid md:grid-rows-[600px_auto]">
+            <div class="hero__inner h-auto 2xl:h-[100vh] grid md:grid-rows-[600px_auto] 2xl:grid-rows-[1fr_auto]">
                 <div
                     class="hero__fv-slider h-[100vh] md:h-auto flex flex-col justify-between items-center py-16 px-4 relative">
-                    <img class="absolute top-0 object-cover object-center z-[-1] w-full h-full"
-                        src="./img/fv-image-1.png">
-                    <div class="lg:relative w-fit flex flex-col gap-8 md:gap-4 justify-center items-center xl:block">
-                        <div class="grid lg:flex gap-2 md:gap-4 items-center w-fit lg:absolute top-0 right-0">
-                            <div class="px-6 py-2 rounded-xl flex items-center gap-2 bg-white">
+                    <img class="object-cover z-[-1] w-full h-full absolute top-0" src="./img/fv-image-1.png">
+                    <div class="w-fit flex flex-col justify-center items-center gap-8 lg:gap-4 xl:block lg:relative">
+                        <div class="w-fit grid lg:flex items-center gap-2 md:gap-4 lg:absolute top-0 right-0">
+                            <div class="flex items-center gap-2 bg-white px-6 py-2 rounded-xl ">
                                 <img class="w-5 md:w-7 h-5 md:h-7" src="./img/green-tick.png" alt>
-                                <p class="text-sm lg:text-[22px] xl:text-2xl font-bold text-[#A0C411]">カンボジア政府と直接対話</p>
+                                <p class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold">カンボジア政府と直接対話</p>
                             </div>
-                            <div class="px-6 py-2 rounded-xl flex items-center gap-2 bg-white">
+                            <div class="flex items-center gap-2 bg-white px-6 py-2 rounded-xl">
                                 <img class="w-5 md:w-7 h-5 md:h-7" src="./img/green-tick.png" alt>
-                                <p class="text-sm lg:text-[22px] xl:text-2xl font-bold text-[#A0C411]">現地の大手企業とのビジネスマッチング</p>
+                                <p class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold">
+                                    現地の大手企業とのビジネスマッチング</p>
                             </div>
                         </div>
-                        <div class="flex items-start sm:items-end max-[1024px]:relative">
-                            <img class="w-[70px] lg:w-32 xl:w-36 h-auto max-[640px]:absolute top-[-1rem]" src="./img/第4回.png" alt>
-                            <p class="font-black text-[36px] lg:text-[56px] xl:text-6xl text-white xl:mb-2 text-center"><span class="max-[768px]:pl-4">カンボジア</span><br class="block md:hidden">ビジネス・投資視察団</p>
+                        <div class="flex items-start md:items-end max-[1024px]:relative">
+                            <img class="w-[70px] lg:w-32 xl:w-36 h-auto max-[1023px]:absolute top-[-1rem]"
+                                src="./img/第4回.png" alt>
+                            <p class="font-black text-[36px] lg:text-[56px] xl:text-6xl text-white xl:mb-2 text-center">
+                                <span class="max-[768px]:pl-4">カンボジア</span><br class="block lg:hidden">ビジネス・投資視察団
+                            </p>
                         </div>
                     </div>
                     <p class="font-bold text-xl md:text-4xl text-white">あなたのビジネスを次のステージへ</p>
@@ -38,7 +41,8 @@
                 <div
                     class="hero__contact-details bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-8">
                     <p class="font-black text-2xl  md:text-4xl leading-10 md:leading-[52px]"><span
-                            class="underline underline-offset-8">2024年11月18日(月)~20日(水)に視察開催</span><br>参加希望の方はお気軽に<br class="block md:hidden">お問い合わせください
+                            class="underline underline-offset-8">2024年11月18日(月)~20日(水)に視察開催</span><br>参加希望の方はお気軽に<br
+                            class="block md:hidden">お問い合わせください
                     </p>
                     <p class="text-xl md:text-2xl">視察団の参加人数には限りがあります。<br class="hidden md:block">
                         お早めに申し込みください</p>
@@ -49,7 +53,7 @@
                                     class="text-[20px] font-bold">メールでのお問い合せ</span><span
                                     class="text-3xl font-light rotate-12">/</span></p>
                             <a href="#"
-                                class="flex gap-4 text-white w-full px-4 md:px-6 py-4 items-center rounded-xl bg-gradient-to-r from-[#25335C] to-[#3662B7]">
+                                class="flex gap-4 text-white w-full px-4 md:px-6 py-4 items-center rounded-xl shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]">
                                 <img class="w-8 h-auto" src="./img/mail-icon.png" alt>
                                 <p class="text-[20px] font-bold">メールでお問い合わせ</p>
                             </a>
@@ -59,11 +63,65 @@
                                     class="text-3xl font-light -rotate-12">\</span><span
                                     class="text-[20px] font-bold">LINEでのお問合せ</span><span
                                     class="text-3xl font-light rotate-12">/</span></p>
-                            <a href="#" class="flex gap-4 text-white px-4 md:px-6 w-full py-4 items-center rounded-xl bg-[#02C153]">
+                            <a href="#"
+                                class="w-full flex items-center gap-4 text-white px-4 md:px-6 py-4 rounded-xl shadow-lg shadow-black/25 bg-[#02C153]">
                                 <img class="w-8 h-auto" src="./img/line-icon.png" alt>
                                 <p class="text-[20px] font-bold">LINEでお問い合わせ</p>
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="business-overview">
+            <div class="business-overview__inner mx-auto space-y-8 pt-12 pb-24 px-4 bg-[#F3F3F3]">
+                <div class="flex flex-col items-center">
+                    <img class="w-[120px] md:w-44 h-auto" src="./img/office-work.png" alt>
+                    <p class="text-[#A0C411] text-center text-[28px] md:text-[40px] font-bold">海外でビジネスを<br
+                            class="block sm:hidden">やってみたいけど…</p>
+                </div>
+                <div class="grid justify-center gap-4">
+                    <div
+                        class="bg-white flex items-start gap-4 md:gap-6 px-6 md:px-8 py-4 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]">
+                        <img class="w-6 md:w-9 h-auto" src="./img/blue-tick.png" alt>
+                        <p class="text-xl md:text-[20px] font-bold">新しい市場に進出したいが、信頼できる<span
+                                class="text-[#A0C411]">パートナー</span>や<span class="text-[#A0C411]">支援体制</span>がない…</p>
+                    </div>
+                    <div
+                        class="bg-white flex items-start gap-4 md:gap-6 px-6 md:px-8 py-4 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]">
+                        <img class="w-6 md:w-9 h-auto" src="./img/blue-tick.png" alt>
+                        <p class="text-xl md:text-[20px] font-bold">現地での<span
+                                class="text-[#A0C411]">実績がない</span>ので、どこからスタートすべきか分からない…</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="support">
+            <div class="support__inner flex flex-col items-center gap-8 py-16 px-4">
+                <div class="support__content space-y-4">
+                    <h2 class="support__title text-2xl text-[#A0C411] text-center font-medium">Support</h2>
+                    <p class="text-[#A0C411] text-center text-2xl md:text-[32px] font-bold">カンボジアでのビジネス展開を実現させた<br class="hidden md:block">実績を持つ視察団がサポートします！
+                    </p>
+                </div>
+                <div class="support-cards grid md:flex gap-6 md:gap-8">
+                    <div
+                        class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#A0C411] rounded-[10px]">
+                        <p class="text-center text-[20px] md:text-2xl font-bold">カンボジア政府閣僚表敬訪問</p>
+                        <img class="w-[150px] md:w-[200px] h-auto" src="./img/government-building.png" alt>
+                        <p class="text-xl md:text-[18px]">政府と直接の対話の機会を提供。現地<br>ビジネスの理解を深めます。</p>
+                    </div>
+                    <div
+                        class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#083285] rounded-[10px]">
+                        <p class="text-center text-[20px] md:text-2xl font-bold">現地財閥大手企業との<br>個別マッチング</p>
+                        <img class="w-[150px] md:w-[200px] h-auto" src="./img/community.png" alt>
+                        <p class="text-xl md:text-[18px]">カンボジアオクンニャアソシエーショ<br>ン(COA)などの影響力ある企業との<br>ビジネスマッチング。</p>
+                    </div>
+                    <div
+                        class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#A0C411] rounded-[10px]">
+                        <p class="text-center text-[20px] md:text-2xl font-bold">JCA主催の信頼と<br class="hidden md:block">
+                            安心サポート</p>
+                        <img class="w-[150px] md:w-[200px] h-auto" src="./img/JCA-support.png" alt>
+                        <p class="text-xl md:text-[18px]">実績豊富なクロマー株式会社による万<br>全のサポートで、現地でのビジネス展<br>開がスムーズに進行します。</p>
                     </div>
                 </div>
             </div>

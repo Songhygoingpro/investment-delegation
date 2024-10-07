@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
 
 body {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
+}
+
+.business-overview__inner {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+.support__title {
+    font-family: 'Futura Std', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .business-overview__inner {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    }
+
 }
