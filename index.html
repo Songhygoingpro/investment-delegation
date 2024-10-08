@@ -15,7 +15,7 @@
         <section class="hero">
             <div class="hero__inner h-auto 2xl:h-[100vh] grid md:grid-rows-[600px_auto] 2xl:grid-rows-[1fr_auto]">
                 <div
-                    class="hero__fv-slider h-[100vh] md:h-auto flex flex-col justify-between items-center py-16 px-4 relative">
+                    class="hero__fv-slider h-[100dvh] md:h-auto flex flex-col justify-between items-center py-16 px-4 relative">
                     <div class="swiper-container w-full h-full object-cover absolute top-0 z-[-1]">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide flex">
@@ -132,20 +132,20 @@
                         class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#A0C411] rounded-[10px]">
                         <p class="text-center text-[20px] md:text-2xl font-bold">カンボジア政府閣僚表敬訪問</p>
                         <img class="w-[150px] md:w-[200px] h-auto" src="./img/government-building.png" alt>
-                        <p class="text-xl md:text-[18px]">政府と直接の対話の機会を提供。現地<br>ビジネスの理解を深めます。</p>
+                        <p class="text-xl md:text-[18px]">政府と直接の対話の機会を提供。現地<br class="hidden md:block">ビジネスの理解を深めます。</p>
                     </div>
                     <div
                         class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#083285] rounded-[10px]">
                         <p class="text-center text-[20px] md:text-2xl font-bold">現地財閥大手企業との<br>個別マッチング</p>
                         <img class="w-[150px] md:w-[200px] h-auto" src="./img/community.png" alt>
-                        <p class="text-xl md:text-[18px]">カンボジアオクンニャアソシエーショ<br>ン(COA)などの影響力ある企業との<br>ビジネスマッチング。</p>
+                        <p class="text-xl md:text-[18px]">カンボジアオクンニャアソシエーショ<br class="hidden md:block">ン(COA)などの影響力ある企業との<br class="hidden md:block">ビジネスマッチング。</p>
                     </div>
                     <div
                         class="support-card text-white flex flex-col justify-center items-center gap-8 p-8 bg-[#A0C411] rounded-[10px]">
                         <p class="text-center text-[20px] md:text-2xl font-bold">JCA主催の信頼と<br class="hidden md:block">
                             安心サポート</p>
                         <img class="w-[150px] md:w-[200px] h-auto" src="./img/JCA-support.png" alt>
-                        <p class="text-xl md:text-[18px]">実績豊富なクロマー株式会社による万<br>全のサポートで、現地でのビジネス展<br>開がスムーズに進行します。</p>
+                        <p class="text-xl md:text-[18px]">実績豊富なクロマー株式会社による万<br class="hidden md:block">全のサポートで、現地でのビジネス展<br class="hidden md:block">開がスムーズに進行します。</p>
                     </div>
                 </div>
             </div>
@@ -160,9 +160,6 @@
                 disableOnInteraction: false,
             },
             loop: true,
-            fadeEffect: {
-                crossFade: true
-            },
             speed: 1000
         });
     </script>
