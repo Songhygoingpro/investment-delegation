@@ -16,7 +16,7 @@
             <div class="hero__inner h-auto 2xl:h-[100vh] grid md:grid-rows-[600px_auto] 2xl:grid-rows-[1fr_auto]">
                 <div
                     class="hero__fv-slider h-[100dvh] md:h-auto flex flex-col justify-between items-center py-16 px-4 relative">
-                    <div class="swiper-container w-full h-full absolute top-0 z-[-1]">
+                    <div class="swiper-container overflow-x-hidden w-full h-full absolute top-0 z-[-1]">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide flex">
                                 <div class="card flex w-full"><img class="object-cover w-full h-full"
@@ -166,9 +166,6 @@
                 disableOnInteraction: false,
             },
             loop: true,
-            fadeEffect: {
-                crossFade: true
-            },
             speed: 1000
         });
     </script>
