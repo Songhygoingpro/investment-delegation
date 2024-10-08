@@ -10,7 +10,7 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
-.support__title {
+.support__title h2, .case__title h2, .message__title h2, .detail__title h2 {
     font-family: 'Futura Std', sans-serif;
 }
 
