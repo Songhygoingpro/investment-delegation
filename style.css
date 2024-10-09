@@ -17,7 +17,7 @@ body {
 @media screen and (max-width: 1024px) {
 
     .business-overview__inner {
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+        clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
     }
 
 }
