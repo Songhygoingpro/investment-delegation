@@ -7,7 +7,7 @@ body {
 }
 
 .business-overview__inner {
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
 
 .support__title h2, .case__title h2, .message__title h2, .detail__title h2 {
