@@ -1,211 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>投資視察団LP</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <main>
-        <section class="hero">
+      <section class="hero">
+        <div
+          class="hero__inner h-[100dvh] md:h-[600px] w-full flex flex-col justify-between items-center py-20 px-5 relative"
+        >
+          <div
+            class="swiper-container overflow-x-hidden w-full h-full absolute top-0 z-[-1]"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex">
+                <div class="card flex w-full">
+                  <img
+                    class="object-cover w-full h-full brightness-[.8]"
+                    src="./img/fv-image-1.png"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide flex">
+                <div class="card flex w-full">
+                  <img
+                    class="object-cover w-full h-full brightness-[.8]"
+                    src="./img/fv-image-2.png"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide flex">
+                <div class="card flex w-full">
+                  <img
+                    class="object-cover w-full h-full brightness-[.8]"
+                    src="./img/fv-image-3.png"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide flex">
+                <div class="card flex w-full">
+                  <img
+                    class="object-cover w-full h-full brightness-[.8]"
+                    src="./img/fv-image-4.png"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-fit flex flex-col justify-center items-center gap-8 lg:gap-4 lg:relative"
+          >
             <div
-                class="hero__inner h-[100dvh] md:h-[600px] w-full flex flex-col justify-between items-center py-20 px-5 relative">
-                <div class="swiper-container overflow-x-hidden w-full h-full absolute top-0 z-[-1]">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide flex">
-                            <div class="card flex w-full">
-                                <img class="object-cover w-full h-full brightness-[.8]" src="./img/fv-image-1.png"
-                                    loading="lazy" />
-                            </div>
-                        </div>
-                        <div class="swiper-slide flex">
-                            <div class="card flex w-full">
-                                <img class="object-cover w-full h-full brightness-[.8]" src="./img/fv-image-2.png"
-                                    loading="lazy" />
-                            </div>
-                        </div>
-                        <div class="swiper-slide flex">
-                            <div class="card flex w-full">
-                                <img class="object-cover w-full h-full brightness-[.8]" src="./img/fv-image-3.png"
-                                    loading="lazy" />
-                            </div>
-                        </div>
-                        <div class="swiper-slide flex">
-                            <div class="card flex w-full">
-                                <img class="object-cover w-full h-full brightness-[.8]" src="./img/fv-image-4.png"
-                                    loading="lazy" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-fit flex flex-col justify-center items-center gap-8 lg:gap-4 lg:relative">
-                    <div class="w-fit grid lg:flex items-center gap-2 md:gap-4 lg:absolute top-0 right-0">
-                        <div class="flex items-center gap-2 px-[20px] py-[6px] bg-white rounded-[10px]">
-                            <img class="w-[22px] md:w-7 h-[22px] md:h-7" src="./img/green-tick.png" loading="lazy"
-                                alt />
-                            <p class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold">
-                                カンボジア政府と直接対話
-                            </p>
-                        </div>
-                        <div class="flex items-center gap-2 px-[20px] py-[6px] bg-white rounded-[10px]">
-                            <img class="w-[22px] md:w-7 h-[22px] md:h-7" src="./img/green-tick.png" loading="lazy"
-                                alt />
-                            <p class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold">
-                                現地の大手企業とのビジネスマッチング
-                            </p>
-                        </div>
-                    </div>
-                    <div class="flex items-start md:items-end max-lg:relative">
-                        <img class="w-[70px] lg:w-28 xl:w-36 h-auto max-lg:absolute top-[-1rem]" src="./img/第4回.png"
-                            loading="lazy" alt />
-                        <p
-                            class="text-[36px] lg:text-[55px] xl:text-6xl text-white text-center font-black xl:mb-2 leading-[52px] drop-shadow-[3.05px_3.05px_2.03px_rgba(0,0,0,0.25)]">
-                            <span class="max-md:pl-4">カンボジア</span><br class="block lg:hidden" />ビジネス・投資視察団
-                        </p>
-                    </div>
-                </div>
-                <p class="text-base md:text-4xl text-white font-bold drop-shadow-[2px_2px_1px_rgba(0,0,0,0.25)]">
-                    -あなたのビジネスを次のステージへ-
+              class="w-fit grid lg:flex items-center gap-2 md:gap-4 lg:absolute top-0 right-0"
+            >
+              <div
+                class="flex items-center gap-2 px-[20px] py-[6px] bg-white rounded-[10px]"
+              >
+                <img
+                  class="w-[22px] md:w-7 h-[22px] md:h-7"
+                  src="./img/green-tick.png"
+                  loading="lazy"
+                  alt
+                />
+                <p
+                  class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold"
+                >
+                  カンボジア政府と直接対話
                 </p>
+              </div>
+              <div
+                class="flex items-center gap-2 px-[20px] py-[6px] bg-white rounded-[10px]"
+              >
+                <img
+                  class="w-[22px] md:w-7 h-[22px] md:h-7"
+                  src="./img/green-tick.png"
+                  loading="lazy"
+                  alt
+                />
+                <p
+                  class="text-[#A0C411] text-sm lg:text-[22px] xl:text-2xl font-bold"
+                >
+                  現地の大手企業とのビジネスマッチング
+                </p>
+              </div>
             </div>
-        </section>
-        <section class="contact">
+            <div class="flex items-start md:items-end max-lg:relative">
+              <img
+                class="w-[70px] lg:w-28 xl:w-36 h-auto max-lg:absolute top-[-1rem]"
+                src="./img/第4回.png"
+                loading="lazy"
+                alt
+              />
+              <p
+                class="text-[36px] lg:text-[55px] xl:text-6xl text-white text-center font-black xl:mb-2 leading-[52px] drop-shadow-[3.05px_3.05px_2.03px_rgba(0,0,0,0.25)]"
+              >
+                <span class="max-md:pl-4">カンボジア</span
+                ><br class="block lg:hidden" />ビジネス・投資視察団
+              </p>
+            </div>
+          </div>
+          <p
+            class="text-base md:text-4xl text-white font-bold drop-shadow-[2px_2px_1px_rgba(0,0,0,0.25)]"
+          >
+            -あなたのビジネスを次のステージへ-
+          </p>
+        </div>
+      </section>
+      <section class="contact">
+        <div
+          class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]"
+        >
+          <p
+            class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]"
+          >
+            <span class="underline underline-offset-4 md:underline-offset-8"
+              >2024年11月18日<span class="text-base md:text-2xl">(月)</span
+              >~20日<span class="text-base md:text-2xl">(水)</span
+              >に視察開催!</span
+            ><br />参加希望の方はお気軽に<br
+              class="block md:hidden"
+            />お問い合わせください
+          </p>
+          <p
+            class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]"
+          >
+            視察団の参加人数には限りがあります。<br class="hidden md:block" />
+            お早めに申し込みください
+          </p>
+          <div class="grid md:flex gap-10 text-black">
             <div
-                class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]">
-                <p class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]">
-                    <span class="underline underline-offset-4 md:underline-offset-8">2024年11月18日<span
-                            class="text-base md:text-2xl">(月)</span>~20日<span
-                            class="text-base md:text-2xl">(水)</span>に視察開催!</span><br />参加希望の方はお気軽に<br
-                        class="block md:hidden" />お問い合わせください
-                </p>
-                <p class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]">
-                    視察団の参加人数には限りがあります。<br class="hidden md:block" />
-                    お早めに申し込みください
-                </p>
-                <div class="grid md:flex gap-10 text-black">
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">メールでのお問い合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]">
-                            <img class="w-9 h-auto" src="./img/mail-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">メールでお問い合わせ</p>
-                        </a>
-                    </div>
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end justify-center gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">LINEでのお問合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]">
-                            <img class="w-9 h-auto" src="./img/line-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">LINEでお問い合わせ</p>
-                        </a>
-                    </div>
-                </div>
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >メールでのお問い合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/mail-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">メールでお問い合わせ</p>
+              </a>
             </div>
-        </section>
-        <section class="business-overview">
-            <div class="business-overview__inner mx-auto space-y-5 md:space-y-10 pt-12 pb-20 px-5 bg-[#F3F3F3]">
-                <div class="flex flex-col items-center">
-                    <img class="w-[120px] md:w-44 h-auto" src="./img/office-work.png" loading="lazy" alt />
-                    <p class="text-[#A0C411] text-center text-[28px] md:text-[40px] max-md:leading-[40px] font-bold">
-                        海外でビジネスを<br class="block sm:hidden" />やってみたいけど…
-                    </p>
-                </div>
-                <div class="grid justify-center gap-5 md:gap-7">
-                    <div
-                        class="bg-white flex items-start md:items-center gap-[6px] md:gap-4 px-4 md:px-[30px] py-[10px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.15)]">
-                        <img class="w-[18px] md:w-10 h-auto m-[6px]" src="./img/blue-tick.png" loading="lazy" alt />
-                        <p class="text-base md:text-xl" style="font-family: 'noto-sans-cjk-jp', 'Noto Sans JP';">
-                            新しい市場に進出したいが、信頼できる<span class="text-[#A0C411] font-bold">パートナー</span>や<span
-                                class="text-[#A0C411] font-bold" style="font-family:'Noto Sans JP';">支援体制</span>がない…
-                        </p>
-                    </div>
-                    <div
-                        class="bg-white flex items-start md:items-center gap-[6px] md:gap-4 px-4 md:px-[30px] py-[10px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.15)]">
-                        <img class="w-[18px] md:w-10 h-auto m-[6px]" src="./img/blue-tick.png" loading="lazy" alt />
-                        <p class="text-base md:text-xl" style="font-family: 'noto-sans-cjk-jp', 'Noto Sans JP';">
-                            現地での<span class="text-[#A0C411] font-bold" style="font-family: 'Noto Sans JP';">実績がない</span>ので、どこからスタートすべきか分からない…
-                        </p>
-                    </div>
-                </div>
+            <div
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end justify-center gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >LINEでのお問合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/line-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">LINEでお問い合わせ</p>
+              </a>
             </div>
-        </section>
-        <section class="support py-[60px] md:py-20 px-5">
-            <div class="support__inner mx-auto flex flex-col items-center gap-8 md:gap-10 max-w-[1200px] w-full">
-                <div class="support__title space-y-3 text-center">
-                    <h2 class="text-2xl text-[#A0C411] font-medium">Support</h2>
-                    <p class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34px] md:leading-[46px]">
-                        カンボジアでのビジネス展開を実現させた<br class="hidden md:block" />実績を持つ視察団がサポートします！
-                    </p>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="business-overview">
+        <div
+          class="business-overview__inner mx-auto space-y-5 md:space-y-10 pt-12 pb-20 px-5 bg-[#F3F3F3]"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              class="w-[120px] md:w-44 h-auto"
+              src="./img/office-work.png"
+              loading="lazy"
+              alt
+            />
+            <p
+              class="text-[#A0C411] text-center text-[28px] md:text-[40px] max-md:leading-[40px] font-bold"
+            >
+              海外でビジネスを<br class="block sm:hidden" />やってみたいけど…
+            </p>
+          </div>
+          <div class="grid justify-center gap-5 md:gap-7">
+            <div
+              class="bg-white flex items-start md:items-center gap-[6px] md:gap-4 px-4 md:px-[30px] py-[10px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+            >
+              <img
+                class="w-[18px] md:w-10 h-auto m-[6px]"
+                src="./img/blue-tick.png"
+                loading="lazy"
+                alt
+              />
+              <p
+                class="text-base md:text-xl"
+                style="font-family: 'noto-sans-cjk-jp', 'Noto Sans JP'"
+              >
+                新しい市場に進出したいが、信頼できる<span
+                  class="text-[#A0C411] font-bold"
+                  >パートナー</span
+                >や<span
+                  class="text-[#A0C411] font-bold"
+                  style="font-family: 'Noto Sans JP'"
+                  >支援体制</span
+                >がない…
+              </p>
+            </div>
+            <div
+              class="bg-white flex items-start md:items-center gap-[6px] md:gap-4 px-4 md:px-[30px] py-[10px] rounded-[10px] shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+            >
+              <img
+                class="w-[18px] md:w-10 h-auto m-[6px]"
+                src="./img/blue-tick.png"
+                loading="lazy"
+                alt
+              />
+              <p
+                class="text-base md:text-xl"
+                style="font-family: 'noto-sans-cjk-jp', 'Noto Sans JP'"
+              >
+                現地での<span
+                  class="text-[#A0C411] font-bold"
+                  style="font-family: 'Noto Sans JP'"
+                  >実績がない</span
+                >ので、どこからスタートすべきか分からない…
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="support py-[60px] md:py-20 px-5">
+        <div
+          class="support__inner mx-auto flex flex-col items-center gap-8 md:gap-10 max-w-[1200px] w-full"
+        >
+          <div class="support__title space-y-3 text-center">
+            <h2 class="text-2xl text-[#A0C411] font-medium">Support</h2>
+            <p
+              class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34.75px] md:leading-[46px]"
+            >
+              カンボジアでのビジネス展開を実現させた<br
+                class="hidden md:block"
+              />実績を持つ視察団がサポートします！
+            </p>
+          </div>
+          <div
+            class="support-cards grid grid-cols-[minmax(auto,378px)] lg:grid-cols-3 justify-center w-full gap-5 md:gap-8"
+          >
+            <div
+              class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-6 p-8 max-md:py-10 bg-[#A0C411] rounded-[10px]"
+            >
+              <p
+                class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center"
+              >
+                カンボジア政府閣僚表敬訪問
+              </p>
+              <img
+                class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto"
+                src="./img/government-building.png"
+                loading="lazy"
+                alt
+              />
+              <p class="text-base md:text-lg font-medium md:leading-[26px]">
+                政府と直接の対話の機会を提供。現地<br
+                  class="hidden xl:block"
+                />ビジネスの理解を深めます。
+              </p>
+            </div>
+            <div
+              class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-6 p-8 max-md:py-10 bg-[#083285] rounded-[10px]"
+            >
+              <p
+                class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center"
+              >
+                現地財閥大手企業との<br />個別マッチング
+              </p>
+              <img
+                class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto"
+                src="./img/community.png"
+                loading="lazy"
+                alt
+              />
+              <p class="text-base md:text-lg font-medium md:leading-[26px]">
+                カンボジアオクンニャアソシエーショ<br
+                  class="hidden xl:block"
+                />ン(COA)などの影響力ある企業との<br
+                  class="hidden xl:block"
+                />ビジネスマッチング。
+              </p>
+            </div>
+            <div
+              class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-6 p-8 max-md:py-10 bg-[#A0C411] rounded-[10px]"
+            >
+              <p
+                class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center"
+              >
+                JCA主催の信頼と<br class="hidden md:block" />
+                安心サポート
+              </p>
+              <img
+                class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto"
+                src="./img/JCA-support.png"
+                loading="lazy"
+                alt
+              />
+              <p class="text-base md:text-lg font-medium md:leading-[26px]">
+                実績豊富なクロマー株式会社による万<br
+                  class="hidden xl:block"
+                />全のサポートで、現地でのビジネス展<br
+                  class="hidden xl:block"
+                />開がスムーズに進行します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="case py-[60px] md:py-20 px-5 bg-[#F4F5EA]">
+        <div
+          class="case__inner mx-auto flex flex-col items-center gap-8 md:gap-10 max-w-[1200px] w-full"
+        >
+          <div class="case__title space-y-3 text-center">
+            <h2 class="text-2xl text-[#A0C411] font-medium">Case</h2>
+            <p
+              class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34.75px] md:leading-[46px]"
+            >
+              視察団を通じて成功させ<br class="block md:hidden" />た過去の事例
+            </p>
+          </div>
+          <div class="case__cards flex flex-col gap-7 lg:gap-[52px]">
+            <div
+              class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white"
+            >
+              <img
+                class="object-cover w-full h-auto"
+                src="./img/case-image-1.png"
+                loading="lazy"
+                alt
+              />
+              <div
+                class="case__card-content my-auto space-y-4 md:space-y-5 px-8 md:px-10 py-10"
+              >
                 <div
-                    class="support-cards grid grid-cols-[minmax(auto,378px)] lg:grid-cols-3 justify-center w-full gap-5 md:gap-8">
-                    <div
-                        class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-8 p-8 max-md:py-10 bg-[#A0C411] rounded-[10px]">
-                        <p class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center">
-                            カンボジア政府閣僚表敬訪問
-                        </p>
-                        <img class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto"
-                            src="./img/government-building.png" loading="lazy" alt />
-                        <p class="text-base md:text-lg font-medium md:leading-[26px]">
-                            政府と直接の対話の機会を提供。現地<br class="hidden xl:block" />ビジネスの理解を深めます。
-                        </p>
-                    </div>
-                    <div
-                        class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-8 p-8 max-md:py-10 bg-[#083285] rounded-[10px]">
-                        <p class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center">
-                            現地財閥大手企業との<br />個別マッチング
-                        </p>
-                        <img class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto" src="./img/community.png"
-                            loading="lazy" alt />
-                        <p class="text-base md:text-lg font-medium md:leading-[26px]">
-                            カンボジアオクンニャアソシエーショ<br class="hidden xl:block" />ン(COA)などの影響力ある企業との<br
-                                class="hidden xl:block" />ビジネスマッチング。
-                        </p>
-                    </div>
-                    <div
-                        class="support-card text-white flex flex-col md:grid md:grid-rows-[1fr_auto_1fr] justify-center gap-8 p-8 max-md:py-10 bg-[#A0C411] rounded-[10px]">
-                        <p class="text-center text-xl md:text-2xl font-bold md:leading-[34.75px] self-center">
-                            JCA主催の信頼と<br class="hidden md:block" />
-                            安心サポート
-                        </p>
-                        <img class="h-full max-h-[140px] md:max-h-[171px] w-auto mx-auto" src="./img/JCA-support.png"
-                            loading="lazy" alt />
-                        <p class="text-base md:text-lg font-medium md:leading-[26px]">
-                            実績豊富なクロマー株式会社による万<br class="hidden xl:block" />全のサポートで、現地でのビジネス展<br
-                                class="hidden xl:block" />開がスムーズに進行します。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="case py-[60px] md:py-20 px-5 bg-[#F4F5EA]">
-            <div class="case__inner mx-auto flex flex-col items-center gap-8 md:gap-10 max-w-[1200px] w-full">
-                <div class="case__title space-y-3 text-center">
-                    <h2 class="text-2xl text-[#A0C411] font-medium">Case</h2>
-                    <p class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34px] md:leading-[46px]">
-                        視察団を通じて成功させ<br class="block md:hidden" />た過去の事例
-                    </p>
-                </div>
-                <div class="case__cards flex flex-col gap-7 lg:gap-[52px]">
-                    <div class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white">
-                        <img class="object-cover w-full h-auto" src="./img/case-image-1.png" loading="lazy" alt />
-                        <div class="case__card-content my-auto space-y-4 md:space-y-5 px-8 py-10">
-                            <div class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
-                                <p class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
-                                    style="
+                  class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4"
+                >
+                  <p
+                    class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
+                    style="
                       clip-path: polygon(
                         0 0,
                         85% 0,
@@ -213,24 +375,32 @@
                         85% 100%,
                         0 100%
                       );
-                    ">
-                                    <span class="text-[10px] mr-1">CASE</span> 01
-                                </p>
-                                <p class="text-[#96B90B] text-2xl font-bold">
-                                    美容学校の開校
-                                </p>
-                            </div>
-                            <p class="leading-[25.6px]">
-                                カンボジア労働職業訓練省と連携し、美容学校を設立。<br />
-                                現地の若者に技術教育を提供し、持続可能なビジネスを展開。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white">
-                        <div class="case__card-content my-auto space-y-4 md:space-y-5 px-8 py-10 max-lg:order-2">
-                            <div class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
-                                <p class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
-                                    style="
+                    "
+                  >
+                    <span class="text-[10px] mr-1">CASE</span> 01
+                  </p>
+                  <p class="text-[#96B90B] text-2xl font-bold">
+                    美容学校の開校
+                  </p>
+                </div>
+                <p class="leading-[25.6px]">
+                  カンボジア労働職業訓練省と連携し、美容学校を設立。<br />
+                  現地の若者に技術教育を提供し、持続可能なビジネスを展開。
+                </p>
+              </div>
+            </div>
+            <div
+              class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white"
+            >
+              <div
+                class="case__card-content my-auto space-y-4 md:space-y-5 px-8 md:px-10 py-10 max-lg:order-2"
+              >
+                <div
+                  class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4"
+                >
+                  <p
+                    class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
+                    style="
                       clip-path: polygon(
                         0 0,
                         85% 0,
@@ -238,27 +408,45 @@
                         85% 100%,
                         0 100%
                       );
-                    ">
-                                    <span class="text-[10px] mr-1">CASE</span> 02
-                                </p>
-                                <p class="text-[#96B90B] text-2xl font-bold">
-                                    ITエンジニア育成カリキュラム開設
-                                </p>
-                            </div>
-                            <p class="leading-[25.6px]">
-                                カンボジア郵政省および<br class="block md:hidden" />AUPP
-                                (American University of Phnom Penh)
-                                と協力し、日本語教育とITエンジニアの育成プログラムを開設。これにより、現地のIT人材を日本企業へと橋渡しする役割を果たしました。
-                            </p>
-                        </div>
-                        <img class="object-cover w-full h-auto" src="./img/case-image-2.png" loading="lazy" alt />
-                    </div>
-                    <div class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white">
-                        <img class="object-cover w-full h-auto" src="./img/case-image-3.png" loading="lazy" alt />
-                        <div class="case__card-content my-auto space-y-4 md:space-y-5 px-8 py-10">
-                            <div class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4">
-                                <p class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
-                                    style="
+                    "
+                  >
+                    <span class="text-[10px] mr-1">CASE</span> 02
+                  </p>
+                  <p class="text-[#96B90B] text-2xl font-bold">
+                    ITエンジニア育成カリキュラム開設
+                  </p>
+                </div>
+                <p class="leading-[25.6px]">
+                  カンボジア郵政省および<br class="block md:hidden" />AUPP
+                  (American University of Phnom Penh)
+                  と協力し、日本語教育とITエンジニアの育成プログラムを開設。これにより、現地のIT人材を日本企業へと橋渡しする役割を果たしました。
+                </p>
+              </div>
+              <img
+                class="object-cover w-full h-auto"
+                src="./img/case-image-2.png"
+                loading="lazy"
+                alt
+              />
+            </div>
+            <div
+              class="case__card grid grid-cols-[minmax(auto,600px)] lg:grid-cols-2 auto-rows-auto bg-white"
+            >
+              <img
+                class="object-cover w-full h-auto"
+                src="./img/case-image-3.png"
+                loading="lazy"
+                alt
+              />
+              <div
+                class="case__card-content my-auto space-y-4 md:space-y-5 px-8 md:px-10 py-10"
+              >
+                <div
+                  class="case__card-title flex flex-col md:flex-row md:items-center gap-1 md:gap-4"
+                >
+                  <p
+                    class="text-xl text-center font-medium bg-[#96B90B] text-white leading-[26px] px-4 pl-2 py w-fit flex items-center h-fit"
+                    style="
                       clip-path: polygon(
                         0 0,
                         85% 0,
@@ -266,213 +454,298 @@
                         85% 100%,
                         0 100%
                       );
-                    ">
-                                    <span class="text-[10px] mr-1">CASE</span> 03
-                                </p>
-                                <p class="text-[#96B90B] text-2xl font-bold">
-                                    自動車整備士学校の開校
-                                </p>
-                            </div>
-                            <p class="leading-[25.6px]">
-                                労働訓練省と協力して、自動車整備士の育成を支援する学校を設立。<br />
-                                現地の労働力を強化し、持続可能な産業基盤を構築。<br />
-                                成功のカギは視察団でのマッチングと現地支援。
-                            </p>
-                        </div>
-                    </div>
+                    "
+                  >
+                    <span class="text-[10px] mr-1">CASE</span> 03
+                  </p>
+                  <p class="text-[#96B90B] text-2xl font-bold">
+                    自動車整備士学校の開校
+                  </p>
                 </div>
+                <p class="leading-[25.6px]">
+                  労働訓練省と協力して、自動車整備士の育成を支援する学校を設立。<br />
+                  現地の労働力を強化し、持続可能な産業基盤を構築。<br />
+                  成功のカギは視察団でのマッチングと現地支援。
+                </p>
+              </div>
             </div>
-        </section>
-        <section class="detail">
-            <div class="detail__inner flex flex-col items-center gap-8 md:gap-10 px-5 py-[60px] md:py-20">
-                <div class="detail__title space-y-3 text-center">
-                    <h2 class="text-2xl text-[#A0C411] font-medium">Detail</h2>
-                    <p class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34px] md:leading-[46px]">
-                        イベント詳細・日程
-                    </p>
-                </div>
-                <table
-                    class="detail__table w-full max-w-[800px] border-collapse border border-[#BFBFBF] font-medium tracking-wider leading-[27px]">
-                    <tr class="max-md:grid">
-                        <th class="bg-[#F6F6F6] px-6 py-[10px] md:p-5 text-left border border-[#BFBFBF]">
-                            視察日程
-                        </th>
-                        <td class="text-left px-6 py-[10px] md:py-5 md:px-10 border border-[#BFBFBF]">
-                            2024年11月18日(月)~20日(水)
-                        </td>
-                    </tr>
-                    <tr class="max-md:grid">
-                        <th class="bg-[#F6F6F6] md:w-[220px] px-6 py-[10px] md:p-5 text-left border border-[#BFBFBF]">
-                            推奨フライト<br /><span class="md:text-xs">(金額は時期により変動します)</span>
-                        </th>
-                        <td class="text-left px-6 py-[10px] md:py-5 md:px-10 border border-[#BFBFBF]">
-                            成田発着ベトナム航空 9万円~ /<br />
-                            関空発着ベトナム航空 11万円~
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-        <section class="contact">
+          </div>
+        </div>
+      </section>
+      <section class="detail">
+        <div
+          class="detail__inner flex flex-col items-center gap-8 md:gap-10 px-5 py-[60px] md:py-20"
+        >
+          <div class="detail__title space-y-3 text-center">
+            <h2 class="text-2xl text-[#A0C411] font-medium">Detail</h2>
+            <p
+              class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34.75px] md:leading-[46px]"
+            >
+              イベント詳細・日程
+            </p>
+          </div>
+          <table
+            class="detail__table w-full max-w-[800px] border-collapse border-[#BFBFBF] font-medium tracking-wider leading-[27px]"
+          >
+            <tr class="max-md:grid">
+              <th
+                class="bg-[#F6F6F6] px-6 py-[10px] md:p-5 text-left border border-[#BFBFBF]"
+              >
+                視察日程
+              </th>
+              <td
+                class="text-left px-6 py-[10px] md:py-5 md:px-10 border border-[#BFBFBF]"
+              >
+                2024年11月18日(月)~20日(水)
+              </td>
+            </tr>
+            <tr class="max-md:grid">
+              <th
+                class="bg-[#F6F6F6] md:w-[220px] px-6 py-[10px] md:p-5 text-left border border-[#BFBFBF]"
+              >
+                推奨フライト<br /><span class="md:text-xs"
+                  >(金額は時期により変動します)</span
+                >
+              </th>
+              <td
+                class="text-left px-6 py-[10px] md:py-5 md:px-10 border border-[#BFBFBF]"
+              >
+                成田発着ベトナム航空 9万円~ /<br />
+                関空発着ベトナム航空 11万円~
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="contact">
+        <div
+          class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]"
+        >
+          <p
+            class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]"
+          >
+            <span class="underline underline-offset-4 md:underline-offset-8"
+              >2024年11月18日<span class="text-base md:text-2xl">(月)</span
+              >~20日<span class="text-base md:text-2xl">(水)</span
+              >に視察開催!</span
+            ><br />参加希望の方はお気軽に<br
+              class="block md:hidden"
+            />お問い合わせください
+          </p>
+          <p
+            class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]"
+          >
+            視察団の参加人数には限りがあります。<br class="hidden md:block" />
+            お早めに申し込みください
+          </p>
+          <div class="grid md:flex gap-10 text-black">
             <div
-                class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]">
-                <p class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]">
-                    <span class="underline underline-offset-4 md:underline-offset-8">2024年11月18日<span
-                            class="text-base md:text-2xl">(月)</span>~20日<span
-                            class="text-base md:text-2xl">(水)</span>に視察開催!</span><br />参加希望の方はお気軽に<br
-                        class="block md:hidden" />お問い合わせください
-                </p>
-                <p class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]">
-                    視察団の参加人数には限りがあります。<br class="hidden md:block" />
-                    お早めに申し込みください
-                </p>
-                <div class="grid md:flex gap-10 text-black">
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">メールでのお問い合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]">
-                            <img class="w-9 h-auto" src="./img/mail-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">メールでお問い合わせ</p>
-                        </a>
-                    </div>
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end justify-center gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">LINEでのお問合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]">
-                            <img class="w-9 h-auto" src="./img/line-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">LINEでお問い合わせ</p>
-                        </a>
-                    </div>
-                </div>
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >メールでのお問い合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/mail-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">メールでお問い合わせ</p>
+              </a>
             </div>
-        </section>
-        <section class="message px-5 py-[60px] md:py-20">
             <div
-                class="message__inner max-w-[1000px] bg-white mx-auto flex flex-col items-center gap-8 md:gap-10 w-full">
-                <div class="message__title space-y-3 text-center">
-                    <h2 class="text-2xl text-[#A0C411] font-medium">Message</h2>
-                    <p class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34px] md:leading-[46px]">
-                        メッセージ
-                    </p>
-                </div>
-                <div class="message__content flex max-lg:items-center max-lg:flex-col-reverse gap-8 md:gap-20">
-                    <article class="flex flex-col gap-7 text-left">
-                        <h3 class="text-xl md:text-2xl text-[#A0C411] font-bold leading-[32px] md:leading-[38px]">
-                            カンボジアでビジネスの成功事例を作ったメ<br class="hidden md:block" />
-                            ンバーに続きませんか？<br />
-                            視察団への参加は、成功への第一歩です！
-                        </h3>
-                        <p class="leading-[25.6px]">
-                            今、カンボジアは急速な成長を遂げ、無限のビジネスチャンスが広がっています。しかし、そのチャンスを活かすかどうかはあなた次第です。
-                        </p>
-                        <p class="leading-[25.6px]">
-                            第4回カンボジアビジネス・投資視察団は、現地の有力企業や政府機関と直接つながる貴重な機会を提供します。<br />
-                            成功するためには、ただ待つのではなく、自ら行動を起こすことが重要です。
-                        </p>
-                        <p class="leading-[25.6px]">
-                            カンボジアでのビジネス成功を確実にするために、今すぐ視察団に参加し、現地のビジネスパートナーや政府と築く信頼関係をあなたの力に変えましょう。未来の可能性は、ここから始まります！
-                        </p>
-                        <p class="leading-[25.6px]">
-                            一般社団法人 日本カンボジア協会<br />会長高橋 文明
-                        </p>
-                    </article>
-                    <img class="w-[440px] h-auto object-cover" src="./img/president.png" loading="lazy" alt />
-                </div>
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end justify-center gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >LINEでのお問合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/line-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">LINEでお問い合わせ</p>
+              </a>
             </div>
-        </section>
-        <section class="contact">
+          </div>
+        </div>
+      </section>
+      <section class="message px-5 py-[60px] md:py-20">
+        <div
+          class="message__inner max-w-[1000px] bg-white mx-auto flex flex-col items-center gap-8 md:gap-10 w-full"
+        >
+          <div class="message__title space-y-3 text-center">
+            <h2 class="text-2xl text-[#A0C411] font-medium">Message</h2>
+            <p
+              class="text-[#A0C411] text-2xl md:text-[32px] font-bold leading-[34.75px] md:leading-[46px]"
+            >
+              メッセージ
+            </p>
+          </div>
+          <div
+            class="message__content flex max-lg:items-center max-lg:flex-col-reverse gap-8 md:gap-20"
+          >
+            <article class="flex flex-col gap-7 text-left">
+              <h3
+                class="text-xl md:text-2xl text-[#A0C411] font-bold leading-[32px] md:leading-[38px]"
+              >
+                カンボジアでビジネスの成功事例を作ったメ<br
+                  class="hidden md:block"
+                />
+                ンバーに続きませんか？<br />
+                視察団への参加は、成功への第一歩です！
+              </h3>
+              <p class="leading-[25.6px]">
+                今、カンボジアは急速な成長を遂げ、無限のビジネスチャンスが広がっています。しかし、そのチャンスを活かすかどうかはあなた次第です。
+              </p>
+              <p class="leading-[25.6px]">
+                第4回カンボジアビジネス・投資視察団は、現地の有力企業や政府機関と直接つながる貴重な機会を提供します。<br />
+                成功するためには、ただ待つのではなく、自ら行動を起こすことが重要です。
+              </p>
+              <p class="leading-[25.6px]">
+                カンボジアでのビジネス成功を確実にするために、今すぐ視察団に参加し、現地のビジネスパートナーや政府と築く信頼関係をあなたの力に変えましょう。未来の可能性は、ここから始まります！
+              </p>
+              <p class="leading-[25.6px]">
+                一般社団法人 日本カンボジア協会<br />会長高橋 文明
+              </p>
+            </article>
+            <img
+              class="w-[440px] h-auto object-cover"
+              src="./img/president.png"
+              loading="lazy"
+              alt
+            />
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div
+          class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]"
+        >
+          <p
+            class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]"
+          >
+            <span class="underline underline-offset-4 md:underline-offset-8"
+              >2024年11月18日<span class="text-base md:text-2xl">(月)</span
+              >~20日<span class="text-base md:text-2xl">(水)</span
+              >に視察開催!</span
+            ><br />参加希望の方はお気軽に<br
+              class="block md:hidden"
+            />お問い合わせください
+          </p>
+          <p
+            class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]"
+          >
+            視察団の参加人数には限りがあります。<br class="hidden md:block" />
+            お早めに申し込みください
+          </p>
+          <div class="grid md:flex gap-10 text-black">
             <div
-                class="contact__inner bg-[#083285] text-white flex flex-col gap-6 justify-center items-center text-center px-2 py-20 md:py-[60px]">
-                <p class="font-black text-2xl md:text-4xl leading-[34.75px] md:leading-[52px] tracking-[2px]">
-                    <span class="underline underline-offset-4 md:underline-offset-8">2024年11月18日<span
-                            class="text-base md:text-2xl">(月)</span>~20日<span
-                            class="text-base md:text-2xl">(水)</span>に視察開催!</span><br />参加希望の方はお気軽に<br
-                        class="block md:hidden" />お問い合わせください
-                </p>
-                <p class="text-base md:text-2xl font-medium tracking-[2px] md:leading-[34.75px]">
-                    視察団の参加人数には限りがあります。<br class="hidden md:block" />
-                    お早めに申し込みください
-                </p>
-                <div class="grid md:flex gap-10 text-black">
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">メールでのお問い合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]">
-                            <img class="w-9 h-auto" src="./img/mail-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">メールでお問い合わせ</p>
-                        </a>
-                    </div>
-                    <div class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]">
-                        <p class="flex items-end justify-center gap-3">
-                            <span class="text-3xl font-light -rotate-[10deg]">\</span><span
-                                class="text-xl font-bold tracking-[2px]">LINEでのお問合せ</span><span
-                                class="text-3xl font-light rotate-[10deg]">/</span>
-                        </p>
-                        <a href="#"
-                            class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]">
-                            <img class="w-9 h-auto" src="./img/line-icon.png" loading="lazy" alt />
-                            <p class="text-xl font-bold">LINEでお問い合わせ</p>
-                        </a>
-                    </div>
-                </div>
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >メールでのお問い合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="text-white w-full flex items-center justify-center gap-4 px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-gradient-to-r from-[#25335C] to-[#3662B7]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/mail-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">メールでお問い合わせ</p>
+              </a>
             </div>
-        </section>
+            <div
+              class="bg-white flex flex-col items-center gap-4 px-5 lg:px-16 py-8 rounded-[15px]"
+            >
+              <p class="flex items-end justify-center gap-3">
+                <span class="text-3xl font-light -rotate-[10deg]">\</span
+                ><span class="text-xl font-bold tracking-[2px]"
+                  >LINEでのお問合せ</span
+                ><span class="text-3xl font-light rotate-[10deg]">/</span>
+              </p>
+              <a
+                href="#"
+                class="w-full flex items-center justify-center gap-4 text-white px-4 lg:px-10 py-[20px] rounded-[15px] shadow-lg shadow-black/25 bg-[#02C153]"
+              >
+                <img
+                  class="w-9 h-auto"
+                  src="./img/line-icon.png"
+                  loading="lazy"
+                  alt
+                />
+                <p class="text-xl font-bold">LINEでお問い合わせ</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        (function (d) {
-            var config = {
-                kitId: "aga1lah",
-                scriptTimeout: 3000,
-                async: true,
-            },
-                h = d.documentElement,
-                t = setTimeout(function () {
-                    h.className =
-                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                }, config.scriptTimeout),
-                tk = d.createElement("script"),
-                f = false,
-                s = d.getElementsByTagName("script")[0],
-                a;
-            h.className += " wf-loading";
-            tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-            tk.async = true;
-            tk.onload = tk.onreadystatechange = function () {
-                a = this.readyState;
-                if (f || (a && a != "complete" && a != "loaded")) return;
-                f = true;
-                clearTimeout(t);
-                try {
-                    Typekit.load(config);
-                } catch (e) { }
-            };
-            s.parentNode.insertBefore(tk, s);
-        })(document);
+      (function (d) {
+        var config = {
+            kitId: "aga1lah",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
     </script>
     <script>
-        const swiper = new Swiper(".swiper-container", {
-            effect: "fade",
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            loop: true,
-            speed: 1000,
-        });
+      const swiper = new Swiper(".swiper-container", {
+        effect: "fade",
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        speed: 1000,
+      });
     </script>
-</body>
-
+  </body>
 </html>
